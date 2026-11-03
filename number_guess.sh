@@ -32,7 +32,7 @@ SECRET_NUMBER=$((RANDOM % 1000 + 1))
 NUMBER_OF_GUESSES=0
 
 echo "Guess the secret number between 1 and 1000:"
-while 
+while true
 do
 read GUESS
 
